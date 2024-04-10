@@ -1,0 +1,21 @@
+{
+    "name": "papidon/myapp",
+    "description": "This is test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Papidon\\Myapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ebrahim keighobadi",
+            "email": "ebrahimkeighobadi@gmx.de"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "tecnickcom/tcpdf": "^6.7",
+        "setasign/fpdi-tcpdf": "^2.3"
+    }
+}
